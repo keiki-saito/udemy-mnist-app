@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "train"
+version = "0.1.0"
+description = ""
+authors = ["keiki-saito <keicake0808@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+scikit-learn = "1.1.2"
+numpy = "1.23.2"
+skl2onnx = "1.15.0"
+packaging = "21.3"
+pillow = "9.2.0"
+onnxruntime = "1.16.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
